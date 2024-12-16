@@ -5,7 +5,7 @@ import OurAgents from './components/OurAgents'
 import Gallery from './components/Gallery'
 import ClientSays from './components/ClientSays'
 import Blog from './components/Blog'
-import Contact from './components/Contact'
+// import Contact from './components/Contact'
 import ResidentialProjects from './components/ResidentialProjects'
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
       <Gallery/>
       <ClientSays/>
       <Blog/>
-      <Contact/>
+      
     </div>
   )
 }
