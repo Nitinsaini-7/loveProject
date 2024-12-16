@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const OurAgents = () => {
   const team = [
     {
-      avatar: "/agent1.jpeg",
-      name: "Martiana dialan",
+      avatar: "",
+      name: "Mr. John",
       title: "Product designer",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
       twitter: "",
@@ -15,8 +15,8 @@ const OurAgents = () => {
       instagram: "",
     },
     {
-      avatar: "/agent2.jpeg",
-      name: "Ms Vandana Tomer ",
+      avatar: "",
+      name: "Ms. Arushi agarwal ",
       title: "General Manager",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
       twitter: "",
@@ -25,8 +25,8 @@ const OurAgents = () => {
       instagram: "",
     },
     {
-      avatar: "/agent3.jpg",
-      name: "MR. Vishal ",
+      avatar: "",
+      name: "MR. Tony ",
       title: "Sales Manager",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
       twitter: "",
@@ -35,8 +35,8 @@ const OurAgents = () => {
       instagram: "",
     },
     {
-      avatar: "/agent4.jpeg",
-      name: "Ms. Ritika Rathi",
+      avatar: "",
+      name: "Ms. Nandini",
       title: "Sales Manager",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
       twitter: "",

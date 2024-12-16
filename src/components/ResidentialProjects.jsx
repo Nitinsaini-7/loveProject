@@ -16,16 +16,18 @@ const ResidentialProjects = () => {
 
   const property = [
     {
-      image: "/R_P1.png",
-      title: "Eros Sampoornam",
-      location: "Sector 2, Greater Noida west",
-      price: "95* lacs",
+      image: "/Ace Hanei.png",
+      title: "ACE Han'ei",
+      location: "Sector 12, Greater Noida West",
+      bsp:"50/ Sq.yd",
+      status:"Rera Approved"
     },
     {
-      image: "/R_P2.png",
-      title: "Civitech Strings",
-      location: "Sector 12, Greater Noida West",
-      price: '94* lacs'
+      image: "/JEWAR.jpeg",
+      title: "Jewar Residency",
+      location: "Near Jewar international Airport ",
+      bsp:"50/ Sq.yd",
+      status:"Authority Approved "
     },
   ];
 
@@ -48,6 +50,8 @@ const ResidentialProjects = () => {
                 <ul className="text-lg">
                   <li className="font-bold">BSP: <span className="font-normal">Starting from : {item.price}</span></li>
                   <li className="font-bold">Location: <span className="font-normal">{item.location}</span></li>
+                  <li className="font-bold">BSP: <span className="font-normal">{item.bsp}</span></li>
+                  <li className="font-bold">Verification Status: <span className="font-normal">{item.status}</span></li>
                 </ul>
               </div>
               <Link>

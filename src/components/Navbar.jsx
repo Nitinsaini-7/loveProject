@@ -51,8 +51,11 @@ const Navbar = () => {
                 {
                     navigation.map((item, idx) => {
                         return (
-                          <li key={idx} className="text-gray-600 text-lg font-semibold hover:text-cyan-500">
-                              <Link onClick={()=>setState(false)} to={item.path}>
+                          <li key={idx} onClick={()=>{
+                            window.scroll(0,0);
+                          }} className="text-gray-600 text-lg font-semibold hover:text-cyan-500">
+                              <Link
+                               onClick={()=>setState(false)} to={item.path}>
                                   { item.title }
                               </Link>
                           </li>
