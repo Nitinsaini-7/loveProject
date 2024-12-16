@@ -37,7 +37,7 @@ const ClientSays = () => {
           <div className="flex flex-col max-w-md  shadow-md hover:shadow-xl duration-200 cursor-pointer">
             <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 ">
               <p className="relative px-6 py-1 text-lg italic text-center ">
-                kkmnsddno
+              
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 512 512"

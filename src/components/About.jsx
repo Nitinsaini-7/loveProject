@@ -46,7 +46,7 @@ const About = () => {
         <div>
           <div className="grid lg:grid-cols-2 lg:mx-10">
             <div className="flex items-center justify-center">
-              <img src="/md.jpg" className="w-80  rounded-md hover:shadow-lg duration-200 cursor-pointer" alt="" />
+              <img src="/md.jpg" className="w-80  rounded-full hover:shadow-lg duration-200 cursor-pointer" alt="" />
             </div>
             <div className="text-lg p-5 space-y-2">
               <p className="text-cyan-500 font-bold">About MD</p>
