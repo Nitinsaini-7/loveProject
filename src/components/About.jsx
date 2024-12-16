@@ -52,7 +52,7 @@ const About = () => {
               <p className="text-cyan-500 font-bold">About MD</p>
               <p>
                 Meet Our Managing Director -
-                <span className="text-cyan-500 font-semibold">Love Tanwar</span>{" "}
+                <span className="text-cyan-500 font-semibold text-justify"> Mr. Love Tanwar</span>{" "}
               </p>
               <p>
                 Welcome to Asta Asset Portfolio Management Pvt. Ltd., where
