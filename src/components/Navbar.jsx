@@ -22,10 +22,8 @@ const Navbar = () => {
         <div className="flex items-center justify-between py-3 md:block">
               <Link to={"/"}>
                   <img
-                      src="https://www.floatui.com/logo.svg" 
-                      width={120} 
-                      height={50}
-                      alt="Float UI logo"
+                      src="/LOGOAAPM.png" 
+                      className='w-14 rounded-full'
                   />
               </Link>
             <div className="md:hidden">
