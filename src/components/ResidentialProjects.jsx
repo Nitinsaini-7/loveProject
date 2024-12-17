@@ -16,24 +16,31 @@ const ResidentialProjects = () => {
 
   const property = [
     {
-      image: "/Ace Hanei.png",
+      image: "/RP_1.png",
       title: "ACE Han'ei",
       location: "Sector 12, Greater Noida West",
-      bsp:"50/ Sq.yd",
+      bsp:"12500/sqr.ft",
+      status:"Rera Approved"
+    },
+    {
+      image: "/RP_2.jpg",
+      title: "CRC Joyous",
+      location: "Noida Extension",
+      bsp:"11000/sqr.ft",
       status:"Rera Approved"
     },
     {
       image: "/JEWAR.jpeg",
-      title: "Jewar Residency",
-      location: "Near Jewar international Airport ",
-      bsp:"50/ Sq.yd",
+      title: "ACE-Estate",
+      location: "Yamuna Expressway",
+      bsp:"50/sqr.ft",
       status:"Authority Approved "
     },
   ];
 
   return (
     <div className="sm:mt-10 mt-20">
-        <Title heading1={"Residential"} heading2={"Projects"} para={'Explore a diverse range of exquisite properties designed to cater to every lifestyle. Evergreen Estate offers a collection of homes that blend modern comfort with timeless elegance.'} />
+        <Title heading1={"Residential"} heading2={"Projects"} para={'Explore a diverse range of exquisite properties designed to cater to every lifestyle. Asta Asset Portfolio Management Pvt. Ltd. offers a collection of homes that blend modern comfort with timeless elegance.'} />
       <div className="grid sm:grid-cols-3 gap-5 sm:mx-10 mx-4">
         {property.map((item) => (
           <div data-aos="fade-up" className="max-w-sm rounded-md shadow-lg hover:shadow-2xl duration-200 cursor-pointer">
@@ -44,11 +51,10 @@ const ResidentialProjects = () => {
             />
             <div className="flex flex-col justify-between p-6 space-y-8">
               <div className="space-y-2">
-                <h2 className="text-2xl font-bold tracking-wide">
+                <h2 className="text-xl font-bold tracking-wide">
                   {item.title}
                 </h2>
-                <ul className="text-lg">
-                  <li className="font-bold">BSP: <span className="font-normal">Starting from : {item.price}</span></li>
+                <ul className="">
                   <li className="font-bold">Location: <span className="font-normal">{item.location}</span></li>
                   <li className="font-bold">BSP: <span className="font-normal">{item.bsp}</span></li>
                   <li className="font-bold">Verification Status: <span className="font-normal">{item.status}</span></li>

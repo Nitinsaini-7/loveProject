@@ -6,8 +6,8 @@ const OurAgents = () => {
   const team = [
     {
       avatar: "",
-      name: "Mr. John",
-      title: "Product designer",
+      name: "Ms. Nandini",
+      title: "Sr. HR Manager",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
       twitter: "",
       facebook: "",
@@ -17,7 +17,17 @@ const OurAgents = () => {
     {
       avatar: "",
       name: "Ms. Arushi agarwal ",
-      title: "General Manager",
+      title: "Jr. HR Manager",
+      desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
+      twitter: "",
+      facebook: "",
+      linkedin: "",
+      instagram: "",
+    },
+    {
+      avatar: "",
+      name: "Mr. John",
+      title: "IT Head",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
       twitter: "",
       facebook: "",
@@ -27,17 +37,7 @@ const OurAgents = () => {
     {
       avatar: "",
       name: "MR. Tony ",
-      title: "Sales Manager",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
-      twitter: "",
-      facebook: "",
-      linkedin: "",
-      instagram: "",
-    },
-    {
-      avatar: "",
-      name: "Ms. Nandini",
-      title: "Sales Manager",
+      title: "General Manager",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
       twitter: "",
       facebook: "",
@@ -50,7 +50,7 @@ const OurAgents = () => {
     <section className="sm:mt-10 mt-20">
       <Title
         heading1={"OUR"}
-        heading2={"AGENTS"}
+        heading2={"team"}
         para={
           "Meet our team of professional agents, who will help you find your dream house."
         }

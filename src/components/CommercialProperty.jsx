@@ -16,23 +16,23 @@ const CommercialProperty = () => {
 
   const property = [
     {
-      image: "/C_P1.png",
+      image: "/C_P1.jpg",
       title: "Trehan Iris Broadway Greno West",
       location: "Ek Murti Chowk, Greater Noida West",
       bsp: "11500/ sqr.ft",
       status: "Rera Approved",
     },
     {
-      image: "/C_P2.png",
+      image: "/C_P2.jpg",
       title: "ACE YXP",
-      location: "Prime Location At Yamuna Expressway",
+      location: "Prime Location At Yamuna Exp.",
       bsp: "8250/ sqr.ft",
       status:"Rera Approved"
     },
     {
-      image: "/C_P3.png",
-      title: "ACE YXP",
-      location: "Prime Location At Yamuna Expressway",
+      image: "/C_P3.jpg",
+      title: "CRC The Flagship",
+      location: "Sector 140A, Noida",
       bsp: "10990/ sqr.ft",
       status:"Rera Approved"
     }
@@ -40,7 +40,7 @@ const CommercialProperty = () => {
 
   return (
     <div className="sm:mt-10 mt-20">
-        <Title heading1={"Commercial"} heading2={"Property"} para={'Explore a diverse range of exquisite properties designed to cater to every lifestyle. Evergreen Estate offers a collection of homes that blend modern comfort with timeless elegance.'} />
+        <Title heading1={"Commercial"} heading2={"Property"} para={'Explore a diverse range of exquisite properties designed to cater to every lifestyle. Asta Asset Portfolio Management Pvt. Ltd. offers a collection of homes that blend modern comfort with timeless elegance.'} />
         
       <div className="grid sm:grid-cols-3 gap-5 sm:mx-10 mx-4">
         {property.map((item) => (

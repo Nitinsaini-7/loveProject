@@ -49,8 +49,8 @@ const About = () => {
               <img src="/md.jpg" className="w-80  rounded-full hover:shadow-lg duration-200 cursor-pointer" alt="" />
             </div>
             <div className="text-lg p-5 space-y-2">
-              <p className="text-cyan-500 font-bold">About MD</p>
-              <p>
+             
+              <p className="font-semibold text-2xl">
                 Meet Our Managing Director -
                 <span className="text-cyan-500 font-semibold text-justify"> Mr. Love Tanwar</span>{" "}
               </p>
@@ -70,11 +70,15 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="p-5 space-y-2">
-            <p className="font-bold text-cyan-500 ">Achievements</p>
+          <div className="p-5 space-y-2 mt-10">
+            
+            <Title
+          heading1={"Achievements"}
+        
+        />
             <div className="grid md:grid-cols-2 bg-slate-100 place-items-center">
               <div className="">
-                <div className=" space-y-5">
+                <div className=" space-y-5 text-lg font-semibold">
 
                 <li>Twice honored with prestigious awards by Iris Pearls.</li>
                 <li>Five-time recipient of accolades from Trehan Iris.</li>
@@ -92,7 +96,11 @@ const About = () => {
           </div>
 
           <div className="p-5 space-y-2">
-            <p className="text-cyan-500 font-bold">About Company</p>
+          <Title
+          heading1={"ABOUT"}
+          heading2={"COMPANY"}
+         
+        />
             <p>
               Founded in 2020, Asta Asset Portfolio Management Pvt. Ltd. is
               built on a foundation of trust, transparency, and unmatched
