@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
         <div className="lg:w-1/3 lg:p-5">
           <Link
-            href="#"
+            to="#"
             className="flex flex-col justify-center space-x-3 lg:justify-start"
           >
             <div className="p-3">
@@ -29,19 +29,21 @@ const Footer = () => {
                   onClick={() => {
                     window.scroll(0, 0);
                   }}
-                  href="#"
+                  to="/commercial_property"
                 >
                   Commercial Property
                 </Link>
               </li>
               <li className="font-semibold">
-                <Link href="#">Residential Projects</Link>
+                <Link  onClick={() => {
+                    window.scroll(0, 0);
+                  }} to="/residential_projects">Residential Projects</Link>
               </li>
               <li className="font-semibold">
-                <Link href="#">Marketing</Link>
+                <Link to="#">Marketing</Link>
               </li>
               <li className="font-semibold">
-                <Link href="#"> consultancy</Link>
+                <Link to="#"> consultancy</Link>
               </li>
             </ul>
           </div>
@@ -51,16 +53,24 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3">
               <li className="font-semibold">
-                <Link to={"/about"}>About Us</Link>
+                <Link  onClick={() => {
+                    window.scroll(0, 0);
+                  }} to={"/about"}>About Us</Link>
               </li>
               <li className="font-semibold">
-                <Link to={"/contact"}>Blogs</Link>
+                <Link  onClick={() => {
+                    window.scroll(0, 0);
+                  }} to={"/blogs"}>Blogs</Link>
               </li>
               <li className="font-semibold">
-                <Link to={"/contact"}>Services</Link>
+                <Link  onClick={() => {
+                    window.scroll(0, 0);
+                  }} to={"/services"}>Services</Link>
               </li>
               <li className="font-semibold">
-                <Link to={"/contact"}>Contact Us</Link>
+                <Link  onClick={() => {
+                    window.scroll(0, 0);
+                  }} to={"/contact"}>Contact Us</Link>
               </li>
             </ul>
           </div>
@@ -70,17 +80,17 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3">
               <li className="font-semibold">
-                <Link to={"tel:"} href="#">
+                <Link to={"tel:"}>
                   +91 9205359256
                 </Link>
               </li>
               <li className="font-semibold">
-                <Link to={"mailto:"} href="#">
+                <Link to={"mailto:"} >
                   lovetomer151@gmail.com
                 </Link>
               </li>
               <li className="font-semibold">
-                <Link to={""} href="#">
+                <Link to={""} >
                   NX-One Tower 3, A-118 First Floor-201009
                 </Link>
               </li>
@@ -92,25 +102,25 @@ const Footer = () => {
             </div>
             <div className="flex gap-1">
               <Link
-                href="#"
+                to="#"
                 className="flex items-center p-4 bg-white rounded-full"
               >
                 <img src="/facebook.png" className="w-96" alt="" />
               </Link>
               <Link
-                href="#"
+                to="#"
                 className="flex items-center p-4 bg-white rounded-full"
               >
                 <img src="/linkedin.png" className="w-96" alt="" />
               </Link>
               <Link
-                href="#"
+                to="#"
                 className="flex items-center p-4 bg-white rounded-full"
               >
                 <img src="/instagram.png" className="w-96" alt="" />
               </Link>
               <Link
-                href="#"
+                to="#"
                 className="flex items-center p-4 bg-white rounded-full"
               >
                 <img src="/twitter.png" className="w-96" alt="" />

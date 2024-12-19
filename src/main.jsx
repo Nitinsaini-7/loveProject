@@ -13,6 +13,8 @@ import About from "./components/About";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Services from "./components/Services";
+import CommercialProperty from "./components/CommercialProperty";
+import ResidentialProjects from "./components/ResidentialProjects";
 
 
 const router = createBrowserRouter(
@@ -23,6 +25,8 @@ const router = createBrowserRouter(
         <Route path="/blogs" element={<Blog/>} />
         <Route path="/services" element={<Services/>} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path="/commercial_property" element={<CommercialProperty/>} />
+        <Route path="/residential_projects" element={<ResidentialProjects/>} />
         
       </Route>
       

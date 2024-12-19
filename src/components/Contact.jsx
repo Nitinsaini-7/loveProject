@@ -9,7 +9,7 @@ const Contact = () => {
     >
       {/* <Title
         heading1={"Contact With"}
-        heading2={"Evergreen Estate"}
+        heading2={"Asta Asset Portfolio Management Pvt. Ltd."}
         para={
           "Top rated construction packages we pleasure rationally encounter consequences interesting who loves or pursue or desires."
         }
@@ -26,34 +26,6 @@ const Contact = () => {
         </div>
       </div>
       <div className="bg-white">
-        <div className="grid lg:grid-cols-2 p-5 gap-5">
-          <div className="">
-            <div className="space-y-5">
-              <p className="text-lg">Contact Us</p>
-              <p className="text-5xl font-bold">New York Office</p>
-              <p>
-                Morbi mollis elit vitae elit molestie lobortis. Cras eu purus
-                ipsum. Aliquam et ullamcorper nisl. Nam sem justo, sagittis sit
-                amet sem at, mollis congue eros. Quisque vel mattis eros. Proin
-                euismod massa id est finibus, rutrum ornare velit pellentesque.
-                Ut arcu magna, interdum eget egestas eget, sagittis a libero.
-                Donec felis tellus, vehicula at purus condimentum, hendrerit
-                dictum odio. Vivamus et condimentum sapien.
-              </p>
-            </div>
-          </div>
-          <div className="">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15282225.79979123!2d73.7250245393691!3d20.750301298393563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1587818542745!5m2!1sen!2sin"
-              
-              frameborder="0"
-              allowfullscreen=""
-              aria-hidden="false"
-              tabindex="0"
-              className="w-full h-96"
-            ></iframe>
-          </div>
-        </div>
 
         <div className="lg:grid lg:grid-cols-2 p-5 gap-5 flex flex-col-reverse">
           <div className="">
@@ -147,7 +119,7 @@ const Contact = () => {
               />
             </label>
             <label className="block">
-              <span className="mb-1">Email address</span>
+              <span className="mb-1">Phone Number</span>
               <input
                 type="tel"
                 placeholder="Mobile No."

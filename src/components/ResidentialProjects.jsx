@@ -60,7 +60,7 @@ const ResidentialProjects = () => {
                   <li className="font-bold">Verification Status: <span className="font-normal">{item.status}</span></li>
                 </ul>
               </div>
-              <Link>
+              <Link to={"/contact"} onClick={()=>window.scroll(0,0)}>
               <button
                 type="button"
                 className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-blue-500 text-white duration-200 hover:bg-blue-600"

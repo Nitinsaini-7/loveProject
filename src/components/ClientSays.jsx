@@ -4,21 +4,21 @@ import Title from "./Title";
 const ClientSays = () => {
   const data = [
     {
-      image: "/client1.avif",
-      name: "Rashmi",
-      title: "Scenic Mountain Retreat",
-      text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.",
+      image: "/amit ivr.jpeg",
+      name: "Amit Ivr",
+      title: "Investor",
+      text: "If you are searching for your dream home or want to invest in commercial property this is the right place. My experience with Love ji has been very good and he helped us to buy two residential properties and ROI of both them has been very good.",
     },
     {
-        image: "/client1.avif",
-        name: "Rashmi",
-        title: "Scenic Mountain Retreat",
-        text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.",
+        image: "/Ashish sobti.jpeg",
+        name: "Ashish Sobti",
+        title: "Investor",
+        text: "The astral star reaI estate firm is professionally managed by a team of enthusiastic personal willing to provide maximum roi with premium projects .I have an association with this firm for quite sometime now. In fact my their genuine advice helped me in setting up an investment portfolio.",
       },{
-        image: "/client1.avif",
-        name: "Rashmi",
-        title: "Scenic Mountain Retreat",
-        text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.",
+        image: "/Tapan kulshretha.jpeg",
+        name: "Tapan kulshretha",
+        title: "Investor",
+        text: "Astral realty’s owner Love is a very friendly person. All our real estate decisions are made with him only and I recommend him to anyone looking to invest in real estate in my network.",
       },
   ];
 
@@ -28,14 +28,14 @@ const ClientSays = () => {
         heading1={"WHAT OUR"}
         heading2={"CLIENTS SAY"}
         para={
-          "Evergreen Estate offers a collection of homes that blend modern comfort with timeless elegance."
+          "Asta Asset Portfolio Management Pvt. Ltd. offers a collection of homes that blend modern comfort with timeless elegance."
         }
       />
 
       <div className="grid sm:grid-cols-3 gap-8 mx-4 sm:mx-10">
         {data.map((item) => (
           <div className="flex flex-col max-w-md  shadow-md hover:shadow-xl duration-200 cursor-pointer">
-            <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 ">
+            <div className="px-4 py-12 md:h-96 rounded-t-lg sm:px-8 md:px-8 ">
               <p className="relative px-6 py-1 text-lg italic text-center ">
               
                 <svg

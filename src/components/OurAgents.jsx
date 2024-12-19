@@ -5,40 +5,40 @@ import { Link } from "react-router-dom";
 const OurAgents = () => {
   const team = [
     {
-      avatar: "",
+      avatar: "/nandini verma.jpeg",
       name: "Ms. Nandini",
-      title: "Sr. HR Manager",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
-      twitter: "",
-      facebook: "",
-      linkedin: "",
-      instagram: "",
+      title: "VP & Sr. HR Manager",
+      desc: "With years of expertise in human resource management, specializes in talent acquisition, employee engagement, and fostering a dynamic work environment, driving our team towards achieving unparalleled success in the real estate sector.",
+      twitter: "https://www.linkedin.com/in/nandini-verma-9b3610255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      facebook: "https://www.linkedin.com/in/nandini-verma-9b3610255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      linkedin: "https://www.linkedin.com/in/nandini-verma-9b3610255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.linkedin.com/in/nandini-verma-9b3610255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
-      avatar: "",
+      avatar: "arushi agarwal (1).jpeg",
       name: "Ms. Arushi agarwal ",
       title: "Jr. HR Manager",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
-      twitter: "",
-      facebook: "",
-      linkedin: "",
-      instagram: "",
+      desc: "Plays a pivotal role in supporting our HR initiatives, ensuring seamless coordination and effective communication across teams. With a focus on recruitment, and employee welfare, motivated, and high-performing workforce.",
+      twitter: "https://www.linkedin.com/public-profile/settings",
+      facebook: "https://www.linkedin.com/public-profile/settings",
+      linkedin: "https://www.linkedin.com/public-profile/settings",
+      instagram: "https://www.linkedin.com/public-profile/settings",
     },
     {
-      avatar: "",
-      name: "Mr. John",
+      avatar: "/love tomer.jpeg",
+      name: "Mr. Love Tomer",
       title: "IT Head",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
-      twitter: "",
-      facebook: "",
-      linkedin: "",
-      instagram: "",
+      desc: "Leads the technological backbone of Astra Asset Portfolio Management pvt ltd, ensuring our systems are innovative, secure, and efficient. With expertise in IT infrastructure, cybersecurity, and digital transformation.",
+      twitter: "https://www.linkedin.com/in/love-tomer?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      facebook: "https://www.linkedin.com/in/love-tomer?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      linkedin: "https://www.linkedin.com/in/love-tomer?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.linkedin.com/in/love-tomer?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
-      avatar: "",
-      name: "MR. Tony ",
-      title: "General Manager",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
+      avatar: "/vipul Shrivastava.jpg",
+      name: "Vipul Shrivastava",
+      title: "Sales Manager",
+      desc: "Brings strategic vision and exceptional leadership to our sales team at Astra Asset Portfolio Management pvt ltd. With a proven track record in driving revenue growth, building client relationships, and identifying market opportunities.",
       twitter: "",
       facebook: "",
       linkedin: "",
@@ -62,7 +62,7 @@ const OurAgents = () => {
               <li
                 data-aos="fade-up"
                 key={idx}
-                className="  cursor-pointer"
+                className=" cursor-pointer"
               >
                 <div className="w-full flex items-center justify-center">
                   <img
@@ -71,30 +71,30 @@ const OurAgents = () => {
                     alt=""
                   />
                 </div>
-                <div className=" p-4 text-center">
+                <div className=" p-2 text-center">
                   <h4 className="text-lg text-gray-700 font-semibold">
                     {item.name}
                   </h4>
                   <p className="text-cyan-500">{item.title}</p>
                   <p className="text-gray-600 mt-2">{item.desc}</p>
                   <div className="mt-3 flex gap-4 text-gray-400 justify-center">
-                    <Link href={item.twitter} className=" ">
+                    <Link to={item.twitter} className=" ">
                       <div className="p-3 shadow-md hover:scale-90 duration-200 flex items-center justify-center w-12 h-12 rounded-full">
                         <img src="/twitter.png" alt="" className="w-20" />
                       </div>
                     </Link>
-                    <Link href={item.facebook}>
+                    <Link to={item.facebook}>
                       <div className="p-3 shadow-md flex items-center hover:scale-90 duration-200 justify-center w-12 h-12 rounded-full">
                         <img src="/facebook.png" alt="" className="w-20" />
                       </div>
                     </Link>
 
-                    <Link href={item.instagram}>
+                    <Link to={item.instagram}>
                       <div className="p-3 shadow-md flex items-center justify-center w-12 h-12 hover:scale-90 duration-200 rounded-full">
                         <img src="/instagram.png" alt="" className="w-20" />
                       </div>
                     </Link>
-                    <Link href={item.linkedin}>
+                    <Link to={item.linkedin}>
                       <div className="p-3 shadow-md flex items-center justify-center w-12 h-12 rounded-full hover:scale-90 duration-200">
                         <img src="/linkedin.png" alt="" className="w-20" />
                       </div>
