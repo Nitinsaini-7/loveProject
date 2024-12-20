@@ -14,7 +14,7 @@ const Footer = () => {
               <img src="/LOGOAAPM.png" className="rounded-full w-16" alt="" />
             </div>
             <span className="self-center text-2xl font-semibold capitalize">
-              AstraAsset Portfolio Management Pvt. Ltd.
+              Astra Asset Portfolio Management Pvt. Ltd.
             </span>
           </Link>
         </div>

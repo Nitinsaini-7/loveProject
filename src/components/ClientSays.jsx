@@ -13,12 +13,12 @@ const ClientSays = () => {
         image: "/Ashish sobti.jpeg",
         name: "Ashish Sobti",
         title: "Investor",
-        text: "The AstraAsset Portfolio Management Pvt. Ltd. is professionally managed by a team of enthusiastic personal willing to provide premium projects .I have an association with this firm for quite sometime now. In fact my their genuine advice helped me in setting up an investment portfolio.",
+        text: "The Astra Asset Portfolio Management Pvt. Ltd. is professionally managed by a team of enthusiastic personal willing to provide premium projects .I have an association with this firm for quite sometime now. In fact my their genuine advice helped me in setting up an investment portfolio.",
       },{
         image: "/Tapan kulshretha.jpeg",
         name: "Tapan kulshretha",
         title: "Investor",
-        text: "AstraAsset Portfolio Management Pvt. Ltd. owner Love is a very friendly person. All our real estate decisions are made with him only and I recommend him to anyone looking to invest in real estate in my network.",
+        text: "Astra Asset Portfolio Management Pvt. Ltd. owner Love is a very friendly person. All our real estate decisions are made with him only and I recommend him to anyone looking to invest in real estate in my network.",
       },
   ];
 
@@ -28,7 +28,7 @@ const ClientSays = () => {
         heading1={"WHAT OUR"}
         heading2={"CLIENTS SAY"}
         para={
-          "AstraAsset Portfolio Management Pvt. Ltd. offers a collection of homes that blend modern comfort with timeless elegance."
+          "Astra Asset Portfolio Management Pvt. Ltd. offers a collection of homes that blend modern comfort with timeless elegance."
         }
       />
 

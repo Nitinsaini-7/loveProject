@@ -61,7 +61,7 @@ const About = () => {
                 </span>{" "}
               </p>
               <p>
-                Welcome to AstraAsset Portfolio Management Pvt. Ltd., where
+                Welcome to Astra Asset Portfolio Management Pvt. Ltd., where
                 success is driven by vision, experience, and an unwavering
                 commitment to excellence. Our esteemed Managing Director, Love
                 Tanwar, has been a trailblazer in the real estate industry since
@@ -159,7 +159,7 @@ const About = () => {
               </li>
             </div>
             <p>
-              At AstraAsset Portfolio Management Pvt. Ltd., we specialize in
+              At Astra Asset Portfolio Management Pvt. Ltd., we specialize in
               managing real estate portfolios for investors and property buyers.
               With a customer-first approach, we focus on creating rewarding
               experiences and providing reliable solutions to help clients
@@ -185,7 +185,7 @@ const About = () => {
                 <p>
                   Join us as we continue to grow and set new benchmarks in real
                   estate, making your investments more secure, profitable, and
-                  hassle-free. With AstraAsset Portfolio Management Pvt. Ltd.,
+                  hassle-free. With Astra Asset Portfolio Management Pvt. Ltd.,
                   your success is our priority.
                 </p>
               </div>
