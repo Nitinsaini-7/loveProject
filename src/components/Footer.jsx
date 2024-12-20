@@ -40,10 +40,14 @@ const Footer = () => {
                   }} to="/residential_projects">Residential Projects</Link>
               </li>
               <li className="font-semibold">
-                <Link to="#">Marketing</Link>
+                <Link onClick={() => {
+                    window.scroll(0, 0);
+                  }} to="/contact">Marketing</Link>
               </li>
               <li className="font-semibold">
-                <Link to="#"> consultancy</Link>
+                <Link onClick={() => {
+                    window.scroll(0, 0);
+                  }} to="/contact"> consultancy</Link>
               </li>
             </ul>
           </div>

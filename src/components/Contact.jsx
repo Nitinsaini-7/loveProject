@@ -7,13 +7,6 @@ const Contact = () => {
       className=" bg-fixed bg-cover"
       style={{ backgroundImage: "url(/about-background.png)" }}
     >
-      {/* <Title
-        heading1={"Contact With"}
-        heading2={"Asta Asset Portfolio Management Pvt. Ltd."}
-        para={
-          "Top rated construction packages we pleasure rationally encounter consequences interesting who loves or pursue or desires."
-        }
-      /> */}
       <div className="sm:h-screen h-96 -mb-5 bg-gray-800 bg-opacity-50 flex items-center pl-5  sm:pl-10 ">
         <div className="text-white">
           <p className="text-lg">Contact With Us</p>
@@ -26,36 +19,34 @@ const Contact = () => {
         </div>
       </div>
       <div className="bg-white">
-
         <div className="lg:grid lg:grid-cols-2 p-5 gap-5 flex flex-col-reverse">
-          <div className="">
+          <div className="flex items-center justify-center">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15282225.79979123!2d73.7250245393691!3d20.750301298393563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1587818542745!5m2!1sen!2sin"
-              className="w-full h-96"
-              frameborder="0"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14019.70472025803!2d77.4325781!3d28.6012423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDM2JzA0LjUiTiA3N8KwMjUnNTcuMyJF!5e0!3m2!1sen!2sin!4v1700000000000"
+              width="350"
+              height="300"
               allowfullscreen=""
-              aria-hidden="false"
-              tabindex="0"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
           <div className="">
             <div className="space-y-5">
               <p className="text-lg">Contact Us</p>
-              <p className="text-5xl font-bold">New York Office</p>
+              <p className="text-5xl font-bold">NX-ONE NOIDA EX. OFFICE</p>
               <p>
-                Morbi mollis elit vitae elit molestie lobortis. Cras eu purus
-                ipsum. Aliquam et ullamcorper nisl. Nam sem justo, sagittis sit
-                amet sem at, mollis congue eros. Quisque vel mattis eros. Proin
-                euismod massa id est finibus, rutrum ornare velit pellentesque.
-                Ut arcu magna, interdum eget egestas eget, sagittis a libero.
-                Donec felis tellus, vehicula at purus condimentum, hendrerit
-                dictum odio. Vivamus et condimentum sapien.
+                Astra Asset Portfolio Management Pvt. Ltd. operates from its
+                prime location in NX One, a modern commercial hub in Greater
+                Noida West (Noida Extension). As a trusted name in real estate
+                services, Astra Asset Portfolio Management leverages the
+                strategic advantages of this thriving business center to provide
+                exceptional solutions to its clients.
               </p>
             </div>
           </div>
         </div>
 
-        <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
+        <div className="grid py-4 max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
           <div className="flex items-center justify-center">
             <div className="py-6 md:py-0 md:px-6">
               <h1 className="text-4xl font-bold mb-5">Get in touch</h1>
