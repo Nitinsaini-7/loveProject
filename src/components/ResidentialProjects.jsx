@@ -40,7 +40,7 @@ const ResidentialProjects = () => {
 
   return (
     <div className="sm:mt-10 mt-20">
-        <Title heading1={"Residential"} heading2={"Projects"} para={'Explore a diverse range of exquisite properties designed to cater to every lifestyle. Asta Asset Portfolio Management Pvt. Ltd. offers a collection of homes that blend modern comfort with timeless elegance.'} />
+        <Title heading1={"Residential"} heading2={"Projects"} para={'Explore a diverse range of exquisite properties designed to cater to every lifestyle. AstraAsset Portfolio Management Pvt. Ltd. offers a collection of homes that blend modern comfort with timeless elegance.'} />
       <div className="grid sm:grid-cols-3 gap-5 sm:mx-10 mx-4">
         {property.map((item) => (
           <div data-aos="fade-up" className="max-w-sm rounded-md shadow-lg hover:shadow-2xl duration-200 cursor-pointer">

@@ -13,7 +13,7 @@ const Contact = () => {
           <div className="sm:text-6xl text-4xl font-bold">
             <p>Contact With</p>
             <p className="text-cyan-500">
-              Asta Asset Portfolio Management Pvt. Ltd.
+              AstraAsset Portfolio Management Pvt. Ltd.
             </p>
           </div>
         </div>

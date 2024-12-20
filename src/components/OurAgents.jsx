@@ -44,6 +44,34 @@ const OurAgents = () => {
       linkedin: "",
       instagram: "",
     },
+    {
+      avatar: "/Mr. Arun.jpeg",
+      name: "Mr. Arun",
+      title: "Sales Executive",
+      desc: "Comprehensive understanding of the local property market, including commercial, residential.",
+      twitter: "",
+      facebook: "",
+      linkedin: "",
+      instagram: "",
+    },{
+      avatar: "/Mrs. Sadhna Sharma.jpeg",
+      name: "Mrs. Sadhna Sharma",
+      title: "Sales Executive ",
+      desc: "Building trust and long-term relationships with clients by understanding their needs and preferences.",
+      twitter: "",
+      facebook: "",
+      linkedin: "",
+      instagram: "",
+    },{
+      avatar: "/Mr. Prashant Sharma.jpeg",
+      name: "Mr. Prashant Sharma",
+      title: "Field Executive",
+      desc: "Ensuring operational efficiency by working on-site to represent the company, manage ground-level tasks.",
+      twitter: "",
+      facebook: "",
+      linkedin: "",
+      instagram: "",
+    },
   ];
 
   return (

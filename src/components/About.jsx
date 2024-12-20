@@ -36,7 +36,7 @@ const About = () => {
           <div className="sm:text-6xl text-4xl font-bold">
             <p>About Us</p>
             <p className="text-cyan-500">
-              Asta Asset Portfolio Management Pvt. Ltd.
+              Astra Asset Portfolio Management Pvt. Ltd.
             </p>
           </div>
         </div>
@@ -46,16 +46,22 @@ const About = () => {
         <div>
           <div className="grid lg:grid-cols-2 lg:mx-10">
             <div className="flex items-center justify-center">
-              <img src="/md.jpg" className="w-80  rounded-full hover:shadow-lg duration-200 cursor-pointer" alt="" />
+              <img
+                src="/md.jpg"
+                className="w-80  rounded-full hover:shadow-lg duration-200 cursor-pointer"
+                alt=""
+              />
             </div>
             <div className="text-lg p-5 space-y-2">
-             
               <p className="font-semibold text-2xl">
                 Meet Our Managing Director -
-                <span className="text-cyan-500 font-semibold text-justify"> Mr. Love Tanwar</span>{" "}
+                <span className="text-cyan-500 font-semibold text-justify">
+                  {" "}
+                  Mr. Love Tanwar
+                </span>{" "}
               </p>
               <p>
-                Welcome to Asta Asset Portfolio Management Pvt. Ltd., where
+                Welcome to AstraAsset Portfolio Management Pvt. Ltd., where
                 success is driven by vision, experience, and an unwavering
                 commitment to excellence. Our esteemed Managing Director, Love
                 Tanwar, has been a trailblazer in the real estate industry since
@@ -70,39 +76,65 @@ const About = () => {
               </p>
             </div>
           </div>
+
+          <div className="grid lg:grid-cols-2 lg:mx-10">
+            <div className="text-lg p-5 space-y-2">
+              <p className="font-semibold text-2xl">
+                Meet
+                <span className="text-cyan-500 font-semibold text-justify">
+                  {" "}
+                  Anil Kumar Sobti
+                </span>
+                : A Visionary Leader with a Legacy of Service
+              </p>
+              <p>
+                At 67, Anil Kumar Sobti, the Second Managing Director of Astra
+                Asset Portfolio Management Pvt. Ltd., brings a wealth of
+                experience, leadership, and integrity to the organization. With
+                an illustrious career that spans decades, Mr. Sobti's journey is
+                a testament to dedication and excellence.
+                <br />
+                <br />
+                Before joining Astra Asset Portfolio Management, Mr. Sobti
+                served with distinction as a government employee, contributing
+                significantly to the public sector. His tenure in government
+                service instilled in him a deep sense of accountability,
+                discipline, and a commitment to ethical practices—qualities he
+                now channels into driving the vision and mission of Astra.
+              </p>
+            </div>
+            <div className="flex items-center justify-center">
+              <img
+                src="/director2.jpeg"
+                className="w-80 rounded-full hover:shadow-lg duration-200 cursor-pointer"
+                alt=""
+              />
+            </div>
+          </div>
+
           <div className="p-5 space-y-2 mt-10">
-            
-            <Title
-          heading1={"Achievements"}
-        
-        />
+            <Title heading1={"Achievements"} />
             <div className="grid md:grid-cols-2 bg-slate-100 place-items-center">
               <div className="">
                 <div className=" space-y-5 text-lg font-semibold">
-
-                <li>Twice honored with prestigious awards by Iris Pearls.</li>
-                <li>Five-time recipient of accolades from Trehan Iris.</li>
-                <li>
-                  Recognized by CRC for outstanding contributions to the real
-                  estate sector.
-                </li>
+                  <li>Twice honored with prestigious awards by Iris Pearls.</li>
+                  <li>Five-time recipient of accolades from Trehan Iris.</li>
+                  <li>
+                    Recognized by CRC for outstanding contributions to the real
+                    estate sector.
+                  </li>
                 </div>
               </div>
               <div className="flex items-center justify-center">
-
-              <img src="/success.png" className="w-52" alt="" />
+                <img src="/success.png" className="w-52" alt="" />
               </div>
             </div>
           </div>
 
           <div className="p-5 space-y-2">
-          <Title
-          heading1={"ABOUT"}
-          heading2={"COMPANY"}
-         
-        />
+            <Title heading1={"ABOUT"} heading2={"COMPANY"} />
             <p>
-              Founded in 2020, Asta Asset Portfolio Management Pvt. Ltd. is
+              Founded in 2020, Astra Asset Portfolio Management Pvt. Ltd. is
               built on a foundation of trust, transparency, and unmatched
               expertise in real estate. Our name, "Asta," reflects the core
               values that define our company:
@@ -127,7 +159,7 @@ const About = () => {
               </li>
             </div>
             <p>
-              At Asta Asset Portfolio Management Pvt. Ltd., we specialize in
+              At AstraAsset Portfolio Management Pvt. Ltd., we specialize in
               managing real estate portfolios for investors and property buyers.
               With a customer-first approach, we focus on creating rewarding
               experiences and providing reliable solutions to help clients
@@ -153,7 +185,7 @@ const About = () => {
                 <p>
                   Join us as we continue to grow and set new benchmarks in real
                   estate, making your investments more secure, profitable, and
-                  hassle-free. With Asta Asset Portfolio Management Pvt. Ltd.,
+                  hassle-free. With AstraAsset Portfolio Management Pvt. Ltd.,
                   your success is our priority.
                 </p>
               </div>
