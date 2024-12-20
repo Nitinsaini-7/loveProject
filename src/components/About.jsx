@@ -77,7 +77,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="grid lg:grid-cols-2 lg:mx-10">
+          <div className="grid lg:grid-cols-2 lg:mx-10 my-12">
             <div className="text-lg p-5 space-y-2">
               <p className="font-semibold text-2xl">
                 Meet
