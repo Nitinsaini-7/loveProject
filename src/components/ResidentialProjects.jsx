@@ -19,7 +19,7 @@ const ResidentialProjects = () => {
       image: "/RP_1.png",
       title: "ACE Han'ei",
       location: "Sector 12, Greater Noida West",
-      bsp:"12500/sqr.ft",
+      bsp:"14000/sqr.ft",
       status:"Rera Approved"
     },
     {
@@ -33,7 +33,7 @@ const ResidentialProjects = () => {
       image: "/JEWAR.jpeg",
       title: "ACE-Estate",
       location: "Yamuna Expressway",
-      bsp:"50/sqr.ft",
+      bsp:"₹1.3 Lac/sqr.ft",
       status:"Authority Approved "
     },
   ];

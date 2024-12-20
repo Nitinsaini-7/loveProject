@@ -130,7 +130,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="py-6 text-sm text-center bg-cyan-500 text-white">
-        © 2024 Company Co. All rights reserved.
+        © 2024 All rights reserved. Designed By <span className="text-black font-semibold"> <Link to={""}>Love Tomer</Link></span> 
       </div>
     </footer>
   );

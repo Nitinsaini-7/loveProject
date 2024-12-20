@@ -19,21 +19,21 @@ const CommercialProperty = () => {
       image: "/C_P1.jpg",
       title: "Trehan Iris Broadway Greno West",
       location: "Ek Murti Chowk, Greater Noida West",
-      bsp: "11500/ sqr.ft",
+      bsp: "19000/sqr.ft",
       status: "Rera Approved",
     },
     {
       image: "/C_P2.jpg",
       title: "ACE YXP",
       location: "Prime Location At Yamuna Exp.",
-      bsp: "8250/ sqr.ft",
+      bsp: "Starting from ₹1.6 Cr",
       status:"Rera Approved"
     },
     {
       image: "/C_P3.jpg",
       title: "CRC The Flagship",
       location: "Sector 140A, Noida",
-      bsp: "10990/ sqr.ft",
+      bsp: "10990/sqr.ft",
       status:"Rera Approved"
     }
   ];
